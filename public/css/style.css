@@ -57,7 +57,7 @@ body {
 
 /*card*/
 
-.card {
+.card-listing {
     border: none !important;
     margin-bottom: 2rem;
 }
@@ -117,3 +117,10 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
+
+#map {
+    height: 30vw;
+    width: 110vh;
+}
+
+
