@@ -96,7 +96,7 @@ app.get("/",(req,res) =>  {
     res.redirect("/listing");
 });
 
-app.use("/listing",listingRouter);
+app.use("/listing",listingRouter); // yha use kiya hai 
 
 app.get("/demouser",async (req,res) =>{
     let fakeUser = new User({
